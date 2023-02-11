@@ -10,7 +10,7 @@ public void draw(){
   myO = 100;
   fill(myC, myO);
   rect(70,70,550,550);
-   fill(250,121,172);
+  fill(255,255,224);
   myFractal(350,350,400);
   }
 public void myFractal(int x, int y, int siz){
@@ -33,11 +33,11 @@ public void myFractal(int x, int y, int siz){
      
      myFractal(x, y - siz/4, siz/4);
      myFractal(x-siz/6, y-siz/6, siz/4);
-     myFractal(x, y + siz/4, siz/4);
      myFractal(x+siz/6, y-siz/6, siz/4);
-     
      myFractal(x - siz/4, y, siz/4);
+     
      myFractal(x-siz/6, y+siz/6, siz/4);
+     myFractal(x, y + siz/4, siz/4);
      myFractal(x+siz/6, y+siz/6, siz/4);
      myFractal(x + siz/4, y, siz/4);
   }
