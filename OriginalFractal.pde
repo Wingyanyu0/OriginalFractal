@@ -10,8 +10,6 @@ public void draw(){
   myO = 100;
   fill(myC, myO);
   rect(70,70,550,550);
-  fill(255,255,224);
-  myFractal(350,350,400);
    fill(250,121,172);
   myFractal(350,350,400);
   }
