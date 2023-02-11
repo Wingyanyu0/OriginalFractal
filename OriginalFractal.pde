@@ -1,11 +1,17 @@
 public void setup(){
-    size(500,500);
+    size(700,700);
     ellipseMode(CENTER);
     noLoop();
   }
 public void draw(){
   background(250,218,221);
-  myFractal(250,250,400);
+  int myC, myO; 
+  myC = color(250,170,172);
+  myO = 100;
+  fill(myC, myO);
+  rect(70,70,550,550);
+  fill(250,121,172);
+  myFractal(350,350,400);
   }
 public void myFractal(int x, int y, int siz){
   int myC, myO;
